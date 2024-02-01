@@ -18,7 +18,7 @@
         {
         "network": "LinkedIn",
         "username": "Dagoberto Salas Cordero",
-        "url": "https://www.linkedin.com/in/dagoberto-salas-cordero-10205521b/"
+        "url": "https://www.linkedin.com/in/dagoberto-salas/"
       },
       {
         "network": "GitHub",
@@ -64,10 +64,10 @@
     "education": [{
       "institution": "Universidad de Costa Rica",
       "url": "https://www.ucr.ac.cr/",
-      "area": "Software Engineer",
+      "area": "Business Informatics Bachelor",
       "studyType": "Bachelor",
       "startDate": "2019-03-04",
-      "endDate": "2023-12-01",
+      "endDate": "2023-12-04",
       "score": "9.0",
       "courses": [
         "DB1101 - Basic SQL"   
@@ -94,7 +94,7 @@
     }],
     "skills": [
       {
-      "name": "HTML5",
+      "name": "HTML",
       "level": "Intermediate",
       "keywords": [
         "Web Development",
@@ -106,7 +106,8 @@
         "level": "Intermediate",
         "keywords": [
           "Web Development",
-          "Front-End"
+          "Front-End",
+          "Reponsive Design"
           ]
       },
       {
@@ -166,6 +167,19 @@
           "Front-End",
           "Javascript Library"
           ]
+      },
+      {
+        "name": "Github",
+        "level": "Intermediate",
+        "keywords": [
+          
+          ]
+      },{
+        "name": "Git",
+        "level": "Intermediate",
+        "keywords": [
+          
+          ]
       }
   ],
     "languages": [{
@@ -189,13 +203,15 @@
       "reference": "Reference…"
     }],
     "projects": [{
-      "name": "API Student Web",
-      "description": "Web project implementing CRUD (Create, Read, Update, Delete) operations for student management using JavaScript.In this context, a student API is integrated to perform the mentioned operations, and the retrieved information is presented in a structured manner in a table built with Tabulator JS.",
+      "name": "Student API Web",
+      "isActive": true,
+      "description": "Web project implementing CRUD (Create, Read, Update, Delete) operations for student management using JavaScript and Tabulator js, also you can download the student information on pdf or json format.",
       
       "url": "https://exampleapistudent.netlify.app/"
     },
     {
       "name": "Country API Website",
+      "isActive": true,
       "description": "This project will involve creating a web application where users can search for countries. The user will be able to filter by region, search by name, and click on a country to see more detailed information",
       
       "url": "https://rest-country-app-d.netlify.app/"
